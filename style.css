@@ -1,1 +1,35 @@
+body {
+    background: linear-gradient(270.13deg, #EAB6B6 -36.21%, rgba(244, 217, 219, 0.8125) 41.12%, #FFFFFF 93.71%, rgba(255, 255, 255, 0.993114) 97.39%, rgba(254, 253, 254, 0.942857) 122.65%, rgba(233, 219, 230, 0) 122.67%);
+}
+
+
+#nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#title {
+    margin: 0px 0px 0px 50px;
+    padding: 0px;
+    color: white;
+    font-size: 120px;
+    -webkit-text-stroke-color: pink;
+    -webkit-text-stroke-width: .1rem;
+    font-family: 'Fredoka One';
+}
+
+#search-bar {
+    font-family: 'Fredoka One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 60px;
+    color: #FFFFFF;
+    background: #EAB6B6;
+    border: 8px solid white;
+    border-radius: 30px;
+    padding-left: 20px;
+    -webkit-input-placeholder: white;
+    
+}
 
