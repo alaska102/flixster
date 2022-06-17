@@ -87,6 +87,9 @@ function createMovieCard (movieObject){
  }
  
 
+ function refreshPage(){
+    window.location.reload("Refresh")
+  }
 
  async function handleMovieCardClick (event) {
     movieID = (event.target.attributes.movieid.value).slice(6);
