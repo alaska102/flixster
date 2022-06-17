@@ -39,7 +39,7 @@ Deployed Application (optional): [Flixster Deployed Site](https://alaska102.gith
 - [X] Implement anything else that you can get done to improve the app functionality!
 
 ### Walkthrough Video
-`http://g.recordit.co/jNt2QZZBEv.gif`
+![](http://g.recordit.co/jNt2QZZBEv.gif)
 
 ### Reflection
 
