@@ -91,8 +91,8 @@ function createMovieCard (movieObject){
  async function handleMovieCardClick (event) {
     movieID = (event.target.attributes.movieid.value).slice(6);
     movieObject = await callAPI(BASE_API_URL + "/movie/" + movieID + API_KEY_QUERY);
-    movieVideoObject = await callAPI(BASE_API_URL + "/movie/" + movieID + "videos" + API_KEY_QUERY);
-
+    movieVideoObject = await callAPI(BASE_API_URL + "/movie/" + movieID + "/videos" + API_KEY_QUERY);
+    let trailerKey = movieVideoObject.results.filter(video => video.type === "Trailer" && video.site === "YouTube")[0]
     popupEl.innerHTML = `
         <img class="movie-header" src="https://image.tmdb.org/t/p/w500${movieObject.poster_path}">
         <div id = "more-info">
@@ -101,7 +101,8 @@ function createMovieCard (movieObject){
         <br><br>
         <p>${movieObject.overview}</p>
         <br><br>
-        <iframe> "https://www.youtube.com/embed/${movieVideoObject.id}"
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/${trailerKey.key}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
         </div>
     `
     console.log(movieObject.poster_path)

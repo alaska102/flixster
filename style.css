@@ -43,7 +43,7 @@ body {
     background-color:pink;
     top: 25%;
     margin: auto auto;
-    width: 700px;
+    width: 920px;
     height:auto;
     z-index: 1000;
     padding: 20px;
@@ -200,3 +200,7 @@ h1{
  
   }
 
+iframe {
+    margin: 0px 0px 30px 30px;
+    display: flex;
+}
