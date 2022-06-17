@@ -39,10 +39,7 @@ Deployed Application (optional): [Flixster Deployed Site](https://alaska102.gith
 - [X] Implement anything else that you can get done to improve the app functionality!
 
 ### Walkthrough Video
-
-`TODO://` Add the embedded URL code to your animated app walkthrough below, `ADD_EMBEDDED_CODE_HERE`. Make sure the video or gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after adding walkthrough video)
-
-`ADD_EMBEDDED_CODE_HERE`
+`http://g.recordit.co/jNt2QZZBEv.gif`
 
 ### Reflection
 
@@ -60,8 +57,7 @@ I'm really proud of how the movie grid turned out. It's exactly what I envisione
 
 ### Open-source libraries used
 
-- Add any links to open-source libraries used in your project.
-
+The Movie Database `https://www.themoviedb.org/?language=en-US`
 ### Shout out
 
 Give a shout out to somebody from your cohort that especially helped you during your project. This can be a fellow peer, instructor, TA, mentor, etc.
