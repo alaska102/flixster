@@ -9,15 +9,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Flixter</title>
-    <link rel="img/star.png" href="/favicon.ico">
-</head>
-<body>
-    <div id="nav-bar">
-        <div id = "title">Flixter</div>
-        <input id = "search-bar" placeholder="search"></input>
-    </div>
-    <div id="movie-grid">
+    <link rel="shortcut icon" href="img/favicon.ico"></head>
 
+<body>
+    <div id="popup-container" class="hidden">
+        <div id="popup" class="hidden"></div>
     </div>
+
+    <div id="header">
+        <!-- <div id = "title">Flixter</div> -->
+        <button id="title" onClick="refreshPage()">Flixter</button>
+        <form>
+            <input type="text" id="search-input" name="search-input" placeholder="search">
+            <button id='clicker'>Enter</button>
+        </form>
+        
+        <button id="close-search-btn" class="hidden">New Search</button>
+    </div>
+    <div id="movies-grid"></div>
+    <button id="load-more-movies-btn">LOAD MORE</button>
+    
+    <script src="script.js"></script>
+
 </body>
 </html>
